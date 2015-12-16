@@ -1,0 +1,25 @@
+/*
+Blog css
+*/
+
+/*
+blog section
+*/
+
+.blog {
+	margin: 50px 0 0 20px;
+}
+
+.blog img {
+	height: 40px;
+	width: 40px;
+}
+
+.blog-post {
+	padding-top: 20px;
+}
+
+ul li {
+	margin-bottom: 50px;
+}
+

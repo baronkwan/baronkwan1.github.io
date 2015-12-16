@@ -1,0 +1,111 @@
+/*
+Default css
+*/
+
+
+html {
+	font-family: Verdana, Helvetica, serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+}
+
+article,aside,footer,header,menu,nav,section {
+	display:block
+}
+
+/**********
+header
+**********/
+
+header {
+	width: 100%;
+	background-color: #0072C6;
+	float: left;
+	margin: 0;
+
+}
+
+h1 {
+	margin: 15px 0 15px 15px;
+	padding: 0 0 0 5px;
+
+}
+
+#label {
+	font-family: Futura;
+	color: white;
+	margin: 0;
+}
+
+
+
+/*
+navbar
+*/
+
+nav {
+	text-align: center;
+	font-family: Verdana;
+	background-color: #0072C6;
+	padding: 10px 10px 10px 10px;
+}
+
+nav a {
+	display: inline;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+
+}
+
+/*
+homepage section
+*/
+
+.homepage {
+	margin-top: 200px;
+	text-align: center;
+}
+
+ul li {
+	margin-bottom: 50px;
+}
+
+
+/*
+footer
+*/
+
+footer {
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 0;
+  	background-color: #efefef;
+  	text-align: right;
+}
+
+footer a {
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+footer span {
+	margin-right: 15px;
+}
+
