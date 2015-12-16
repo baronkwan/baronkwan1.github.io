@@ -6,6 +6,10 @@ Blog css
 blog section
 */
 
+ul li {
+	margin-bottom: 50px;
+}
+
 .blog {
 	margin: 50px 0 0 20px;
 }
@@ -19,7 +23,17 @@ blog section
 	padding-top: 20px;
 }
 
-ul li {
-	margin-bottom: 50px;
+.blog-nav {
+	width: 100%;
+	text-align: center;
+}
+
+div li {
+	list-style: none;
+	display: inline;
+}
+
+.post h2,h3,h4,p {
+	margin: 10px;
 }
 

@@ -16,7 +16,7 @@ body {
 }
 
 article,aside,footer,header,menu,nav,section {
-	display:block
+	display: block;
 }
 
 /**********
