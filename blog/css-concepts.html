@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css"/>
+  <meta charset="utf-8"/>
+  <title>Phase-0/Week-3/3.6 Technical Blog</title>
+
+</head>
+<body>
+  <header>
+    <a id="label" href="../index.html"><h1>Baron Kwan DBC Site</h1></a>
+  </header>
+
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="#">About Me</a>
+    <a href="#">Projects</a>
+    <a href="index.html">Blog</a>
+    <a href="#">Links</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="blog-nav">
+    <li><a href="git.html">Previous Post</a> |</li>
+    <li><a href="index.html">Blog Home |</li>
+    <li><a href="#">Next Post</a></li>
+  </div>
+
+
+<section class="post">
+  <h2>DBC week 3: Technical blog</h2>
+  <h3>Absolute, Relative, Fixed and Static Positioning: How do they differ?</h3><br/>
+  <h4>Established on Dec. 18, 2015</h4>
+  
+  <hr>
+
+  <section>
+
+    <p>
+      CSS Positioning is not hard but some of its concepts were abstract and mostly misused. After reading articles about CSS positioning, I would like to share the difference of the four positioning values of CSS positioning.  
+    </p>
+    <br/>
+    <p>
+      <strong>Static</strong>: Every single page element is positioned in <code>static</code> by default.<br/> It means the element will flow into the page as it normally would.
+    </p>
+
+    <p>
+      <strong>Relative</strong>: What it actually means is "relative to itself". If one set <code>position: relative;</code> but no other position attributes (top, bottom, left, right) it will show no effect on its positioning at all. It will be exactly as it would be as setting to <code>static</code>. One more thing should be mentioned is <code>Relative</code> also limits the scope of absolutely positioned child elements.
+    </p>
+
+    <p>
+      <strong>Absolute</strong>: Similar to <code>Relative</code>, you want to use position attributes (top, bottom, left, right) to set the location on the page. The element that positioned as <code>absolute</code> will be positioned relatively to the it parent which was positioned relatively or absolutely. If no such parent was positioned before it. It will trace all the way back to the <code>< html ></code> element. Meaning it will be positioned relative to the page itself. Absolutely positioned elements are removed from the flow of the page.
+    </p>
+
+    <p>
+      <strong>Fixed</strong>: A fixed position element is positioned relative to the viewport, or the browser window itself. The viewport doesn't change when the window is scrolled, so a fixed positioned element will always stay at the same position.
+    </p>
+      
+  </section>
+</section>
+
+<footer>
+    <a href="https://github.com/baronkwan">GitHub</a> |
+    <a href="https://www.linkedin.com/in/baronkwan">Linkedin</a> |
+    <a href="mailto:baronkwan@outlook.com">Email</a>
+    <br/>
+    <span><strong>&copy; 2015 Baron Kwan</stong></span>
+</footer>
+
+</body>
+</html>
+
