@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css"/>
+  <meta charset="utf-8"/>
+  <title>Phase-0/Week-4/4.8 Technical Blog</title>
+
+</head>
+<body>
+  <header>
+    <a id="label" href="../index.html"><h1>Baron Kwan DBC Site</h1></a>
+  </header>
+
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="#">About Me</a>
+    <a href="#">Projects</a>
+    <a href="index.html">Blog</a>
+    <a href="#">Links</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="blog-nav">
+    <li><a href="css-concepts.html">Previous Post</a> |</li>
+    <li><a href="index.html">Blog Home |</li>
+    <li><a href="#">Next Post</a></li>
+  </div>
+
+
+<section class="post">
+  <h2>DBC week 4: Technical blog</h2>
+  <h3>Arrays and Hashes</h3><br/>
+  <h4>Established on Jan. 3, 2016</h4>
+
+  <hr>
+
+  <section>
+    <p>This week we are going to talk about Arrays and Hashes. They are both very important. Ruby would not be the same if it lives without their existence.
+    </p>
+
+    <p>So, yes, they are use for storing and retrieving data. But what exactly are they? Lets start with Arrays. You can think of an array as a integer-indexed comma-seperated list which it stores data within a squared bracket. Array starts counting from 0 instead of 1. Please see the example below which showing an array storing in a variable called "weekday".
+    </p><br/>
+
+    <p><code>weekday = [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" ]</code></p><br/>
+
+    <p>To retrieve "Monday" you need to call <code>week[0]</code> instead of <code>week[1]</code>.</p>
+    <br/>
+
+    <p>For hash, you can think of it as a collection of key-value pairs of information which it stores data within a curly bracket. However, the key are all unique but not neccessarily for the values. It is not an integer ordered list but a set of key-value pairs seperated by comma. In both arrays and hashes, if you try to access a key or index that doesn't exist, you will get nil by default.
+    </p>
+    <br/>
+
+    <p><code>weekday_hash = { "Monday" => 1, "Tuesday" => 2, "Wednesday" => 3, "Thursday" => 4, "Friday" => 5 }</code></p><br/>
+
+    <p>In this case, "Monday" becomes the first key of the weekday_hash. To retrieve the value 1, you need to call <code>weekday_hash["Monday"]</code>.</p>
+
+    <br/>
+    <p>Below are some example syntaxs of arrays and hashes</p>
+    <img src="../imgs/arrays-hashes.jpg" alt="arrays-hashes.jpg"/>
+
+
+
+  </section>
+
+</section>
+
+<footer>
+    <a href="https://github.com/baronkwan">GitHub</a> |
+    <a href="https://www.linkedin.com/in/baronkwan">Linkedin</a> |
+    <a href="mailto:baronkwan@outlook.com">Email</a>
+    <br/>
+    <span><strong>&copy; 2015 Baron Kwan</stong></span>
+</footer>
+
+</body>
+</html>
+
