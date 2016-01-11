@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css"/>
+  <meta charset="utf-8"/>
+  <title>Phase-0/Week-4/4.8 Technical Blog</title>
+
+</head>
+<body>
+  <header>
+    <a id="label" href="../index.html"><h1>Baron Kwan</h1></a>
+  </header>
+
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="#">About Me</a>
+    <a href="#">Projects</a>
+    <a href="index.html">Blog</a>
+    <a href="#">Links</a>
+    <a href="#">Contact</a>
+  </nav>
+
+
+  <div id="blog-nav">
+    <div class="blog-nav-locator">
+      <a href="arrays-hashes.html">Previous Post</a> |
+    </div>
+
+    <div class="blog-nav-locator">
+      <a href="index.html">Blog Home</a> |
+    </div>
+      
+    <div class="blog-nav-locator">
+      <a href="#">Next Post</a>
+    </div>
+  </div>
+
+  <br/>
+
+<section class="post">
+  <h2>DBC week 5: Technical blog</h2>
+  <h3>Enumerable methods - Enumerable#map</h3><br/>
+  <h4>Established on Jan. 10, 2016</h4>
+
+  <hr>
+
+  <section>
+    <p>
+      Enumerable is one of the module that make Ruby powerful. It is a whole pack of methods that prewriten for Rubyists to take and get access to. It beautifully replace the use of for loops. Provided clarity for reader. In this article, I would like to talk about one of the most useful Enumerable method - #map (alias for collect).
+    </p>
+    <br/>
+    <p>Lets look at the example below: </p>
+    <br/>
+    <p>
+      <code class="code-zone">> [1,2,3].map { |i| i*i }</code><br/>
+      <code class="code-zone">==> [1,4,9]</code>
+    </p>
+    <p>Each element in the array is modified by the block passed into the map method. When the iteration is done, it will return a new array with the result of running the block once for every element in the array. #map will run your block and give you an object filled with whatever your block returned each time. And if there is no block given after calling #map, an enumerator will be returned instead.</p>
+    
+    <br/>
+    
+    <p>To get a better sense of #map/#collect, you can picture it as remapping your original array through some sort of transformation. Or doing something to each element of the array and collecting the results at the end. #map and #collect are the same thing, just called differently.
+    <p>
+    </p>
+
+
+
+
+  </section>
+
+</section>
+
+<footer>
+    <a href="https://github.com/baronkwan">GitHub</a> |
+    <a href="https://www.linkedin.com/in/baronkwan">Linkedin</a> |
+    <a href="mailto:baronkwan@outlook.com">Email</a>
+    <br/>
+    <span><strong>&copy; 2015 Baron Kwan</stong></span>
+</footer>
+
+</body>
+</html>
+

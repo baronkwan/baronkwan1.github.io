@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <a id="label" href="../index.html"><h1>Baron Kwan DBC Site</h1></a>
+    <a id="label" href="../index.html"><h1>Baron Kwan</h1></a>
   </header>
 
 
@@ -22,12 +22,22 @@
     <a href="#">Contact</a>
   </nav>
 
-  <div class="blog-nav">
-    <li><a href="css-concepts.html">Previous Post</a> |</li>
-    <li><a href="index.html">Blog Home |</li>
-    <li><a href="#">Next Post</a></li>
+
+  <div id="blog-nav">
+    <div class="blog-nav-locator">
+      <a href="css-concepts.html">Previous Post</a> |
+    </div>
+
+    <div class="blog-nav-locator">
+      <a href="index.html">Blog Home</a> |
+    </div>
+      
+    <div class="blog-nav-locator">
+      <a href="enumerable-methods.html">Next Post</a>
+    </div>
   </div>
 
+  <br/>
 
 <section class="post">
   <h2>DBC week 4: Technical blog</h2>
@@ -43,18 +53,18 @@
     <p>So, yes, they are use for storing and retrieving data. But what exactly are they? Lets start with Arrays. You can think of an array as a integer-indexed comma-seperated list which it stores data within a squared bracket. Array starts counting from 0 instead of 1. Please see the example below which showing an array storing in a variable called "weekday".
     </p><br/>
 
-    <p><code>weekday = [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" ]</code></p><br/>
+    <p><code class="code-zone">weekday = [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" ]</code></p><br/>
 
-    <p>To retrieve "Monday" you need to call <code>week[0]</code> instead of <code>week[1]</code>.</p>
+    <p>To retrieve "Monday" you need to call <code class="code-zone">week[0]</code> instead of <code class="code-zone">week[1]</code>.</p>
     <br/>
 
     <p>For hash, you can think of it as a collection of key-value pairs of information which it stores data within a curly bracket. However, the key are all unique but not neccessarily for the values. It is not an integer ordered list but a set of key-value pairs seperated by comma. In both arrays and hashes, if you try to access a key or index that doesn't exist, you will get nil by default.
     </p>
     <br/>
 
-    <p><code>weekday_hash = { "Monday" => 1, "Tuesday" => 2, "Wednesday" => 3, "Thursday" => 4, "Friday" => 5 }</code></p><br/>
+    <p><code class="code-zone">weekday_hash = { "Monday" => 1, "Tuesday" => 2, "Wednesday" => 3, "Thursday" => 4, "Friday" => 5 }</code></p><br/>
 
-    <p>In this case, "Monday" becomes the first key of the weekday_hash. To retrieve the value 1, you need to call <code>weekday_hash["Monday"]</code>.</p>
+    <p>In this case, "Monday" becomes the first key of the weekday_hash. To retrieve the value 1, you need to call <code class="code-zone">weekday_hash["Monday"]</code>.</p>
 
     <br/>
     <p>Below are some example syntaxs of arrays and hashes</p>
