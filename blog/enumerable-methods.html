@@ -4,7 +4,7 @@
   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
   <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css"/>
   <meta charset="utf-8"/>
-  <title>Phase-0/Week-4/4.8 Technical Blog</title>
+  <title>Phase-0/Week-5/5.9 Technical Blog</title>
 
 </head>
 <body>
@@ -33,7 +33,7 @@
     </div>
       
     <div class="blog-nav-locator">
-      <a href="#">Next Post</a>
+      <a href="ruby-classes.html">Next Post</a>
     </div>
   </div>
 
@@ -50,7 +50,6 @@
     <p>
       Enumerable is one of the module that make Ruby powerful. It is a whole pack of methods that prewriten for Rubyists to take and get access to. It beautifully replace the use of for loops. Provided clarity for reader. In this article, I would like to talk about one of the most useful Enumerable method - #map (alias for collect).
     </p>
-    <br/>
     <p>Lets look at the example below: </p>
     <br/>
     <p>
@@ -59,8 +58,6 @@
     </p>
     <br/>
     <p>Each element in the array is modified by the block passed into the map method. When the iteration is done, it will return a new array with the result of running the block once for every element in the array. #map will run your block and give you an object filled with whatever your block returned each time. And if there is no block given after calling #map, an enumerator will be returned instead.</p>
-    
-    <br/>
     
     <p>To get a better sense of #map/#collect, you can picture it as remapping your original array through some sort of transformation. Or doing something to each element of the array and collecting the results at the end. #map and #collect are the same thing, just called differently.
     <p>

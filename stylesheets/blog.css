@@ -1,6 +1,4 @@
-/*
-Blog css
-*/
+/*Blog css*/
 
 /*
 blog section
@@ -10,13 +8,15 @@ blog section
 #blog-nav {
 	width: 300px;
 	margin: 10px auto;
+
 }
 
 #blog-nav a:hover {
-	padding: 1px;
+	
 	background-color: black;
 	color: white;
-	border-radius: 5px;
+	padding: 1px;
+	border-radius: 2px;
 }
 
 .blog-nav-locator {
@@ -62,7 +62,17 @@ li {
 	list-style: none;
 }
 
+.post {
+	width: 95%;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
 .post h2,h3,h4,p {
 	margin: 10px;
 }
 
+.post img {
+	width: 70%;
+	border-radius: 10px;
+}
