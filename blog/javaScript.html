@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css"/>
+  <meta charset="utf-8"/>
+  <title>Phase-0/Week-7/7.10 Technical Blog</title>
+
+</head>
+<body>
+  <header>
+    <a id="label" href="../index.html"><h1>Baron Kwan</h1></a>
+  </header>
+
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About Me</a>
+    <a href="../projects/index.html">Projects</a>
+    <a href="index.html">Blog</a>
+    <a href="#">Links</a>
+    <a href="../contact.html">Contact</a>
+  </nav>
+
+
+  <div id="blog-nav">
+    <div class="blog-nav-locator">
+      <a href="ruby-classes.html">Previous Post</a> |
+    </div>
+    <div class="blog-nav-locator">
+      <a href="index.html">Blog Home</a> |
+    </div>
+      
+    <div class="blog-nav-locator">
+      <a href="#">Next Post</a>
+    </div>
+  </div>
+
+  <br/>
+
+<section class="post">
+  <h2>DBC week 7: Technical blog</h2>
+  <h3>Loop with Ruby vs. JS</h3><br/>
+  <h4>Established on Jan. 23, 2016</h4>
+  <hr>
+  <section>
+    
+    <p>
+      Looping is one of the basic but yet one of the most important idea about programming.
+      We expect computers to help us complete tedious tasks then free us from it to do other work for the sake of efficiency. That's why we need looping to automate similar actions.
+      This week, since we are in the middle of the transition from Ruby to JavaScript, I want to take this chance to talk about iteration in Ruby vs. iteration in JavaScript.
+    </p>
+    <p>
+      Here is a simple example of iteration in both Ruby and JavaScript. Say, we want to count 99 times starting from 0. Both will print out 0 to 99 on the console.
+    </p>
+    <img style="margin-left: 50px; width: 40%;" src="../imgs/Rb_vs_JS/Rb_count.png" alt="Rb_count"/>
+    <img style="margin-left: 50px; width: 40%;" src="../imgs/Rb_vs_JS/JS_count.png" alt="JS_count"/>
+    <p>
+      As you may have noticed, Ruby seems to be more syntactical, intuitive. While JavaScript requires more words to complete the same task. Below is a table to explain the above two looping action.
+    </p>
+    <img style="margin-left: 50px; width: 50%;" src="../imgs/Rb_vs_JS/Rb_vs_JS.png" alt="Rb_vs_JS"/>
+
+    <p>
+      In each example, you will find both iteration consist of three parts.
+      <ol>
+        <li>1. State of iteration</li>
+        <li>2. Condition to determine whether the loop should continue or terminated.</li>
+        <li>3. Iterator to keep track with the current state and update it after previous iteration.</li>
+      </ol>
+    </p>
+
+    <p>
+      Here is another example to loop over hash (in Ruby) and object (in JS).
+    </p>
+
+    <img style="margin-left: 50px; width: 500px; height: 220px;" src="../imgs/Rb_vs_JS/Rb_hash_loop.png" alt="Rb_hash_loop"/>
+    <img style="margin-left: 50px; width: 500px; height: 220px;" src="../imgs/Rb_vs_JS/JS_object_loop.png" alt="JS_object_loop"/>
+
+    <p>
+      Since Ruby is well-known of its readability, it has many built-in methods that handle challenging situations. In Ruby, we have Array#each, Array#each_index, Array#map, Array#select for looping an Array. To loop through a Hash, we have Hash#each, Hash#each_pair, Hash#map. On the other hand, in JavaScript, we have less intuitive methods. Rather, we use for-in loop to loop through Object (JS version of Ruby's Hash).
+    </p>
+
+    <p>
+      Although Ruby and JavaScript are both commonly use in the industry, they have their own specialty. JavaScript is a client-side language and Ruby is server-side. So typically you would use each language for its respective purpose.
+    </p>
+    <br/>
+
+  </section>
+</section>
+
+<footer>
+    <a href="https://github.com/baronkwan">
+    <img title="Github" alt="Github" src="../imgs/github-icon.png" width="35" height="35" />
+    </a>
+    <a href="https://www.linkedin.com/in/baronkwan">
+    <img title="LinkedIn" alt="LinkedIn" src="../imgs/linkedin-icon.png" width="35" height="35" />
+    </a>
+    <a href="mailto:baronkwan@outlook.com">
+    <img title="Email" alt="Email" src="../imgs/email-icon.png" width="35" height="35" />
+    </a>
+    <br/>
+    <span><strong>&copy; 2015 Baron Kwan</stong></span>
+</footer>
+
+</body>
+</html>
+
