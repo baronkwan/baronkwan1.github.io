@@ -4,25 +4,31 @@
 
 
 #about-text-container {
-	width: 80%;
-	margin: auto;
+	width: 60%;
+	margin: 0 auto;
 	padding: 15px;
+	background-color: #c0c0c0;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 #profile-image {
-	width: 20%;
-	height: 20%;
-	float: left;
-	margin-left: 50px;
+	width: 10%;
+	height: 10%;
+	display: block;
+	margin: -80px auto 0 auto;
 	padding: 30px;
 	border-radius: 100%;
 }
 
+#about-text-container h2 {
+	text-align: center;
+}
 
 #about-text-container p {
+	text-align: left;
+	color: black;
 	font-size: 14px;
 	margin-top: 50px;
-	width: 90%;
 }
 
 #about-text-container a:hover {

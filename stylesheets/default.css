@@ -24,11 +24,11 @@ body {
 	background:url('../imgs/background_pic.jpg');
 	background-size:cover;
 	z-index:-1;
-	-webkit-filter: blur(3px);
-  	-moz-filter: blur(3px);
-  	-o-filter: blur(3px);
-  	-ms-filter: blur(3px);
-  	filter: blur(3px);
+	-webkit-filter: blur(1px);
+  	-moz-filter: blur(1px);
+  	-o-filter: blur(1px);
+  	-ms-filter: blur(1px);
+  	filter: blur(1px);
 }
 
 article,aside,footer,header,menu,nav,section {
@@ -93,12 +93,14 @@ navbar
 	padding: 3px 5px;
 	color: white;
 	font-weight: bold;
+	opacity: 0.5;
 }
 
 
 .nav-container a:hover {
-	color: black;
-	background-color: white;
+/*	color: black;
+	background-color: white;*/
+	opacity: 1;
 
 
 /*nav {
