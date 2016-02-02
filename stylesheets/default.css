@@ -24,11 +24,11 @@ body {
 	background:url('../imgs/background_pic.jpg');
 	background-size:cover;
 	z-index:-1;
-	-webkit-filter: blur(1px);
-  	-moz-filter: blur(1px);
-  	-o-filter: blur(1px);
-  	-ms-filter: blur(1px);
-  	filter: blur(1px);
+	-webkit-filter: blur(2px);
+  	-moz-filter: blur(2px);
+  	-o-filter: blur(2px);
+  	-ms-filter: blur(2px);
+  	filter: blur(2px);
 }
 
 article,aside,footer,header,menu,nav,section {
