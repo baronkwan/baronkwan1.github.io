@@ -1,38 +1,31 @@
 /***** About CSS *****/
 
-* {
-    box-sizing: border-box;
-}
-
 /**********/
 
-.about {
-	margin-top: 150px;
-}
 
 #about-text-container {
-
+	width: 80%;
+	margin: auto;
+	padding: 15px;
 }
 
 #profile-image {
 	width: 20%;
 	height: 20%;
 	float: left;
+	margin-left: 50px;
 	padding: 30px;
-	margin-left: 100px;
 	border-radius: 100%;
 }
 
-#about-text-container div {
-	width: 80%;
-	float: 80%;
-	padding: 15px;
-}
-#about-text-container h3 {
-	margin: 0;
-}
+
 #about-text-container p {
+	font-size: 14px;
 	margin-top: 50px;
 	width: 90%;
+}
+
+#about-text-container a:hover {
+	text-decoration: underline;
 }
 

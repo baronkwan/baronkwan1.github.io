@@ -1,15 +1,56 @@
 /***Contact CSS***/
 
-#contact {
+/*#contact {
 	text-align: center;
 	width: 100%;
 	margin-top: 150px;
+}*/
+
+.contact-page-container {
+	width: 60%;
+	margin: 8em auto;
+	text-align: center;
 }
 
-a {
-	margin-right: 25px;
+.contact-page-container h2 {
+	text-align: center;
+	font-weight: bold;
+  	color: white;
+  	text-shadow: 2px 2px 2px black,
+  				-2px -2px 2px black,
+              	-2px 2px 2px black,
+               	2px -2px 2px black;
 }
 
-a:hover {
-	font-weight: bolder;
+
+
+.icon-box {
+	margin-top: 20px;
+	opacity:1;
+	background: #e3e3e3;
+	border-radius: 35px;
+	display: inline-block;
+	/*height: 30%;*/
+	overflow: auto;
+	overflow-x: hidden;
+	padding: 2px 2px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
+.icon-box ul {
+	display: inline-block;
+	list-style: none;
+	margin: 5px auto;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.icon-box li {
+	float: right;
+}
+
+.icon-box ul li a:hover {
+    opacity:0.5;
+}
+
+
