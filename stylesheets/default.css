@@ -62,9 +62,8 @@ header {
 /*
 navbar
 */
-.nav-container {
-	width: 60%;
-	height: 30px;
+nav {
+	width: 55%;
 	margin: 60px auto;
 	font-family: Verdana;
 	text-align: center;
@@ -73,23 +72,27 @@ navbar
 	padding: 5px 10px 5px 10px;
 }
 
-.nav-container ul {
+nav ul {
 	display: inline-block;
 	list-style: none;
-	margin: 3px auto;
+	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
 }
 
-.nav-container ul li {
+nav ul li {
 	float: left;
 }
 
-.nav-container a {
+nav a {
 	display: block;
-	border-radius: 5px;
 	text-decoration: none;
-	margin: 0 20px;
+	margin: 0 5px;
 	padding: 3px 5px;
 	color: white;
 	font-weight: bold;
@@ -97,34 +100,66 @@ navbar
 }
 
 
-.nav-container a:hover {
+nav a:hover {
 /*	color: black;
 	background-color: white;*/
 	opacity: 1;
-
-
-/*nav {
-	text-align: center;
-	font-family: Verdana;
-	background-color: #0072C6;
-	padding: 10px 10px 10px 10px;
 }
 
-nav a {
-	display: inline;
-	margin: 5px;
-	padding: 5px;
-	text-align: center;
+.handle {
+	width: 100%;
+	/*box-sizing: border-box;*/
+	cursor: pointer;
 	color: white;
+	text-align: center;
 	font-weight: bold;
+	margin: 0 5px;
+	padding: 3px 5px;
+	display: none;
 }
 
-nav a:hover {
-	color: black;
-	background-color: white;
-	border-radius: 5px;
-*/
+
+
+@media only screen and (max-width: 852px) {
+
+	nav ul {
+		max-height: 0;
+	}
+
+	.showing {
+		max-height: 10em;
+	}
+
+	nav {
+		width: 55%;
+		margin: 60px auto;
+		border-radius: 10px;
+		font-family: Verdana;
+		text-align: left;
+		padding: 5px 5px;
+	}
+
+	.handle {
+		display: block;
+	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		text-align: left;
+	}
+
+/*	nav a {
+		display: block;
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+		opacity: 0.5;
+	}*/
+
+
 }
+
 
 /*
 homepage section
